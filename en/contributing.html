@@ -1,0 +1,194 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Contributing • GREN Map</title>
+
+    <!-- FONT -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- GITHUB MARKDOWN STYLE -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/5.5.1/github-markdown-light.min.css"
+    />
+
+    <!-- SEU CSS -->
+    <link rel="stylesheet" href="../styles.css" />
+
+    <!-- INTEGRAÇÃO COM SEU LAYOUT -->
+    <style>
+      body {
+        background: #f6f8fa;
+      }
+
+      .markdown-wrapper {
+        max-width: 980px;
+        margin: 80px auto;
+        padding: 40px;
+        background: white;
+        border: 1px solid #d0d7de;
+        border-radius: 12px;
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.04);
+      }
+
+      .markdown-body {
+        font-family: "Barlow", system-ui, sans-serif;
+      }
+    </style>
+  </head>
+
+  <body>
+    <!-- HEADER -->
+
+    <nav>
+      <div class="logo">
+        <a href="index.html" style="margin-left: 0">
+          <h1>GREN MAP Project</h1>
+        </a>
+      </div>
+
+      <div class="nav-links">
+        <a href="index.html#sobre">About</a>
+        <a href="index.html#repos">Repositories</a>
+        <a href="index.html#contribuir">Contribute</a>
+      </div>
+
+      <div class="lang-switch">
+        <a href="/contributing.html" class="lang-btn">
+          <img src="https://flagcdn.com/w20/br.png" />
+          <span>PT</span>
+        </a>
+
+        <a href="/en/contributing.html" class="lang-btn">
+          <img src="https://flagcdn.com/w20/us.png" />
+          <span>EN</span>
+        </a>
+      </div>
+    </nav>
+
+    <!-- CONTENT -->
+
+    <main class="markdown-wrapper">
+      <article class="markdown-body">
+        <h1>Contributing to this project</h1>
+
+        <p>
+          Contributions to this project are always welcome. As a contributor,
+          here are the guidelines we would like you to follow:
+        </p>
+
+        <ul>
+          <li><a href="#code-of-conduct">Code of Conduct</a></li>
+          <li><a href="#feature-request">Feature Requests</a></li>
+          <li><a href="#submitting-an-issue">Issues and Bugs</a></li>
+          <li>
+            <a href="#submitting-a-pull-request-pr">Submission Guidelines</a>
+          </li>
+          <li><a href="#coding-rules">Coding Rules</a></li>
+          <li>
+            <a href="#commit-message-guidelines">Commit Message Guidelines</a>
+          </li>
+        </ul>
+
+        <h2 id="code-of-conduct">Code of Conduct</h2>
+        <p>
+          Help keep this project open and inclusive. Please read and follow the
+          <a href="CODE_OF_CONDUCT.md">Code of Conduct</a>.
+        </p>
+
+        <h2 id="feature-request">Feature Request</h2>
+        <p>
+          You can request a new feature by submitting an issue to our
+          repository.
+        </p>
+
+        <ul>
+          <li>
+            For a <strong>Major Feature</strong>, open an issue first so it can
+            be discussed.
+          </li>
+          <li>
+            Small Features can be crafted and directly submitted as a Pull
+            Request.
+          </li>
+        </ul>
+
+        <h2 id="submitting-an-issue">Submitting an Issue</h2>
+
+        <p>Before submitting an issue, search the archive.</p>
+
+        <ul>
+          <li>Overview of the Issue</li>
+          <li>Motivation or Use Case</li>
+          <li>Browsers and Operating System</li>
+          <li>Steps to reproduce</li>
+          <li>Screenshots if relevant</li>
+          <li>Related issues</li>
+        </ul>
+
+        <h2 id="submitting-a-pull-request-pr">
+          Submitting a Pull Request (PR)
+        </h2>
+
+        <p>Before submitting your PR:</p>
+
+        <ul>
+          <li>Fork the repository</li>
+          <li>Follow coding conventions</li>
+          <li>Add unit and functional tests</li>
+          <li>Run the linter</li>
+          <li>Update the changelog</li>
+        </ul>
+
+        <pre><code>git push my-fork my-fix-branch</code></pre>
+
+        <p>Then open a Pull Request to <strong>master</strong>.</p>
+
+        <h3>After your pull request is merged</h3>
+
+        <p>You can safely delete your fork and pull the updated main branch.</p>
+
+        <h2 id="coding-rules">Coding Rules</h2>
+
+        <ul>
+          <li>All features or bug fixes must include tests</li>
+          <li>All public APIs must be documented</li>
+          <li>Follow the PEP8 Python style guide</li>
+        </ul>
+
+        <h2 id="commit-message-guidelines">Commit Message Guidelines</h2>
+
+        <p>
+          Commit messages should describe what changed and reference the issue
+          ID.
+        </p>
+
+        <pre><code>git commit -m "#178 Removes obsolete functions from base_app's views file"</code></pre>
+      </article>
+    </main>
+
+    <!-- FOOTER -->
+
+    <footer>
+      <div class="partners">
+        <div class="partners-logos">
+          <img src="/public/logo-rnp.png" />
+          <img src="/public/logo-gnag.png" />
+          <img src="/public/logo.png" />
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>2026, GREN Map Project</p>
+      </div>
+    </footer>
+  </body>
+</html>

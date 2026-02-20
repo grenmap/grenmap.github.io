@@ -1,0 +1,202 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Contribuindo • GREN Map</title>
+
+    <!-- FONT -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- GITHUB MARKDOWN STYLE -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/5.5.1/github-markdown-light.min.css"
+    />
+
+    <!-- SEU CSS -->
+    <link rel="stylesheet" href="styles.css" />
+
+    <!-- INTEGRAÇÃO -->
+    <style>
+      body {
+        background: #f6f8fa;
+      }
+
+      .markdown-wrapper {
+        max-width: 980px;
+        margin: 80px auto;
+        padding: 40px;
+        background: white;
+        border: 1px solid #d0d7de;
+        border-radius: 12px;
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.04);
+      }
+
+      .markdown-body {
+        font-family: "Barlow", system-ui, sans-serif;
+      }
+    </style>
+  </head>
+
+  <body>
+    <!-- HEADER -->
+
+    <nav>
+      <div class="logo">
+        <a href="index.html" style="margin-left: 0">
+          <h1>GREN MAP Project</h1>
+        </a>
+      </div>
+
+      <div class="nav-links">
+        <a href="index.html#sobre">Sobre</a>
+        <a href="index.html#repos">Repositórios</a>
+        <a href="index.html#contribuir">Contribuir</a>
+      </div>
+
+      <div class="lang-switch">
+        <a href="/contributing.html" class="lang-btn">
+          <img src="https://flagcdn.com/w20/br.png" />
+          <span>PT</span>
+        </a>
+
+        <a href="/en/contributing.html" class="lang-btn">
+          <img src="https://flagcdn.com/w20/us.png" />
+          <span>EN</span>
+        </a>
+      </div>
+    </nav>
+
+    <!-- CONTENT -->
+
+    <main class="markdown-wrapper">
+      <article class="markdown-body">
+        <h1>Contribuindo para este projeto</h1>
+
+        <p>
+          Contribuições para este projeto são sempre bem-vindas. Como
+          colaborador, seguem as diretrizes que gostaríamos que você seguisse:
+        </p>
+
+        <ul>
+          <li><a href="#codigo-de-conduta">Código de Conduta</a></li>
+          <li>
+            <a href="#solicitacao-de-funcionalidades"
+              >Solicitação de Funcionalidades</a
+            >
+          </li>
+          <li><a href="#envio-de-issues">Relato de Problemas</a></li>
+          <li><a href="#envio-de-pr">Envio de Pull Requests</a></li>
+          <li><a href="#regras-de-codificacao">Regras de Codificação</a></li>
+          <li><a href="#mensagens-de-commit">Diretrizes de Commit</a></li>
+        </ul>
+
+        <h2 id="codigo-de-conduta">Código de Conduta</h2>
+
+        <p>
+          Ajude a manter este projeto aberto e inclusivo. Por favor, leia e siga
+          o
+          <a href="CODE_OF_CONDUCT.md">Código de Conduta</a>.
+        </p>
+
+        <h2 id="solicitacao-de-funcionalidades">
+          Solicitação de Funcionalidades
+        </h2>
+
+        <p>
+          Você pode solicitar uma nova funcionalidade abrindo uma issue no
+          repositório.
+        </p>
+
+        <ul>
+          <li>
+            Para uma <strong>Funcionalidade Grande</strong>, abra uma issue
+            primeiro para que a proposta possa ser discutida.
+          </li>
+          <li>
+            Funcionalidades pequenas podem ser implementadas e enviadas
+            diretamente como Pull Request.
+          </li>
+        </ul>
+
+        <h2 id="envio-de-issues">Relato de Problemas</h2>
+
+        <p>Antes de abrir uma issue, pesquise se ela já não foi reportada.</p>
+
+        <ul>
+          <li>Descrição geral do problema</li>
+          <li>Motivação ou caso de uso</li>
+          <li>Navegador e sistema operacional</li>
+          <li>Passos para reproduzir</li>
+          <li>Capturas de tela, se necessário</li>
+          <li>Issues relacionadas</li>
+        </ul>
+
+        <h2 id="envio-de-pr">Envio de Pull Requests (PR)</h2>
+
+        <p>Antes de enviar seu PR:</p>
+
+        <ul>
+          <li>Faça um fork do repositório</li>
+          <li>Siga as convenções de código</li>
+          <li>Adicione testes unitários e funcionais</li>
+          <li>Execute o linter</li>
+          <li>Atualize o changelog</li>
+        </ul>
+
+        <pre><code>git push meu-fork minha-branch</code></pre>
+
+        <p>
+          Depois, abra um Pull Request para a branch <strong>master</strong>.
+        </p>
+
+        <h3>Após o merge do seu PR</h3>
+
+        <p>
+          Você pode excluir seu fork e sincronizar com a branch principal
+          atualizada.
+        </p>
+
+        <h2 id="regras-de-codificacao">Regras de Codificação</h2>
+
+        <ul>
+          <li>Todas as funcionalidades ou correções devem possuir testes</li>
+          <li>APIs públicas devem ser documentadas</li>
+          <li>Seguimos o padrão de estilo Python PEP8</li>
+        </ul>
+
+        <h2 id="mensagens-de-commit">Diretrizes de Commit</h2>
+
+        <p>
+          Mensagens de commit devem descrever a mudança e referenciar o ID da
+          issue.
+        </p>
+
+        <pre><code>git commit -m "#178 Remove funções obsoletas"</code></pre>
+      </article>
+    </main>
+
+    <!-- FOOTER -->
+
+    <footer>
+      <div class="partners">
+        <div class="partners-logos">
+          <img src="/public/logo-rnp.png" />
+          <img src="/public/logo-gnag.png" />
+          <img src="/public/logo.png" />
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>2026, GREN Map Project</p>
+      </div>
+    </footer>
+  </body>
+</html>
