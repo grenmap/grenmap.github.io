@@ -472,3 +472,22 @@ button svg {
   border-radius: 16px;
   box-shadow: 0 20px 40px rgba(0, 0, 0, 0.12);
 }
+
+.want-contribute {
+  padding: 80px 10%;
+  margin: 0 auto;
+}
+
+.want-contribute .contact-email a {
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+
+.want-contribute p {
+  margin-bottom: 18px;
+  color: #1e293b;
+}
+
+.contrib-actions {
+  margin-top: 24px;
+}
